@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FindbugsPlugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  pluginid="org.mutabilitydetector.findbugs.noop" 
+  website="https://github.com/Grundlefleck/no-op-findbugs-detector"
+  provider="Grundlefleck"
+  defaultenabled="true">
+  <Detector class="org.mutabilitydetector.findbugs.NoopPluginDetector"
+    speed="fast" reports="NOOP_NO_OP_BUG_SHOULD_NEVER_BE_RAISED" />
+
+  <BugPattern type="NOOP_NO_OP_BUG_SHOULD_NEVER_BE_RAISED"
+    abbrev="NOOP" category="CORRECTNESS">
+    <Details>
+<![CDATA[]]>
+    </Details>
+  </BugPattern>
+</FindbugsPlugin>
